@@ -24,7 +24,7 @@ Set olNs = Nothing
 Set olApp = Nothing
 
 End Sub
------------------------------------------------------------------------------------------------------------------------------------
+
 Sub ListSubFolders(ByVal parentFolder As Outlook.Folder)
 Dim subFolder As Outlook.Folder
 Dim folderPath As String
