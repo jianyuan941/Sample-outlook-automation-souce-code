@@ -1,7 +1,7 @@
 # Sample-outlook-automation-souce-code
 This VBA code allow to access specific subfolder in outlook, read then extract attachment and store in pc with specific folder name
 
-
+=====================================================================================================================================
 Sub listfolder()
 Dim olApp As Outlook.Application
 Dim olNs As Outlook.NameSpace
@@ -24,7 +24,7 @@ Set olNs = Nothing
 Set olApp = Nothing
 
 End Sub
-=====================================================================================================================================
+-----------------------------------------------------------------------------------------------------------------------------------
 Sub ListSubFolders(ByVal parentFolder As Outlook.Folder)
 Dim subFolder As Outlook.Folder
 Dim folderPath As String
